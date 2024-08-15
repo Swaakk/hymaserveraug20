@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Hyma Polymers and Metals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            background-image: linear-gradient(to right, #0066cc, #005bb5);
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        .content, .contact-section {
+            background-color: white;
+            padding: 40px;
+            margin: 20px 0;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+        }
+
+        .content h2, .contact-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #005bb5;
+        }
+
+        .content p {
+            line-height: 1.8;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .content ul {
+            list-style-type: disc;
+            padding-left: 40px;
+        }
+
+        .contact-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 1.1em;
+            width: calc(100% - 30px);
+        }
+
+        .contact-form button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 10px;
+            font-size: 1.2em;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #005bb5;
+        }
+
+        .map {
+            margin: 40px 0;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0066cc;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .header h1, .content h2, .contact-section h2 {
+                font-size: 2em;
+            }
+
+            .content p, .contact-form input, .contact-form textarea {
+                font-size: 1em;
+            }
+
+            .contact-form button {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Hyma Polymers and Metals!</h1>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h2>Your Premier Destination for Quality Solutions</h2>
+            <p>At Hyma Polymers and Metals, we're dedicated to providing top-notch products and services in the polymers and metals industry. With a reputation for excellence and a commitment to innovation, we're your trusted partner for all your polymer and metal needs.</p>
+            <h2>Our Services</h2>
+            <ul>
+                <li>High-quality polymer production</li>
+                <li>Advanced metal fabrication</li>
+                <li>Custom solutions for your industry needs</li>
+                <li>Innovative research and development</li>
+                <li>Exceptional customer service</li>
+            </ul>
+        </div>
+
+        <div class="contact-section">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+            </form>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019048113709!2d144.9559253153184!3d-37.81732397975164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf4c67c3a05a10b64!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1583460639451!5m2!1sen!2sau" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Hyma Polymers and Metals. All rights reserved.</p>
+    </div>
+</body>
+</html>
